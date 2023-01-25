@@ -19,10 +19,10 @@ const puppeteer = require('puppeteer');
   await page.keyboard.press("Tab");
   await page.keyboard.press("Tab");
   await page.keyboard.press("Tab");
-  await page.keyboard.press("Enter");
-  await page.keyboard.press("Tab");
-  await page.keyboard.press("Tab");
-  await page.keyboard.press("Tab");
+  // await page.keyboard.press("Enter");
+  // await page.keyboard.press("Tab");
+  // await page.keyboard.press("Tab");
+  // await page.keyboard.press("Tab");
   // Click on the login button
   // await page.waitFor(1000)
   // await page.waitForSelector('button#btn-login.btn-black')
@@ -53,7 +53,8 @@ const puppeteer = require('puppeteer');
   // await page.waitForNavigation();
 
   // // Take a screenshot
-  await page.screenshot({ path: 'next12_p.png' });
+  await page.screenshot({ path: 'next15_p.png' });
+  await page.screenshot({ path: 'next18_p.png' });
 
   console.log('Screenshot taken');
 
